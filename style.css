@@ -1,0 +1,117 @@
+@import url('./font.css');
+/*-----------------------------------------------------*/
+/* BASIC SETUP*/
+/*-----------------------------------------------------*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+ 
+}
+
+html{
+    background-color: #fff;
+    color:black;
+    font-style: 'lato', 'arial', san-serif;
+    font-size: 20px;
+    font-weight: 300;
+    text-rendering: optimizeLegibility;
+}
+.background{
+    overflow: hidden;
+    filter: blur(10px);
+    -webkit-filter: blur(10px);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    
+}
+.section-whole{
+    position: absolute;
+    font-family: 'livvic';
+    top: 35%;
+    left: 40%;
+    background:white ;
+    transform: translate(-50%, -50%);
+    width: 800px;
+    height: 500px;
+    text-align: left;
+    border: rgb(7, 6, 6);
+    border-radius: 10px;
+    opacity: 0.9;
+    background-image: url(./img/surface-KxB7q987Em8-unsplash.jpg);
+    background-size:350px 550px;
+    background-repeat: no-repeat;
+    background-position: left;
+    background-color: white;
+    margin: 100px;
+    margin-bottom: 50px;
+    
+}
+.main,
+.nav{
+    float: right;
+}
+
+.first{
+    float: left;
+    margin: 30px;
+}
+.first h5{
+    position: absolute;
+    border: 2px solid rgb(7, 7, 7);
+    top: 80%;
+    left: 10%;
+    padding: 5px;
+}
+.first h4{
+    margin-top: 20px;
+}
+label{
+    color: slategray;
+    font-size: 19px;
+    display: block;
+
+}
+.second{
+    padding: 15px;
+}
+input{
+    padding: 20px;
+    background: transparent;
+    border-radius: 0px;
+    border: 0px;
+    border-bottom: 2px solid;
+    width: 400px;
+}
+.user{
+    padding: 20px;
+}
+.email{
+    padding: 20px;
+}
+.password{
+    padding: 20px;
+}
+.btn{
+    text-align: center;
+}
+.nav{
+    position: absolute;
+    top:90%;
+    left: 50%;
+}
+.me{
+    border: solid 3px black;
+    height: 40px;
+    width: 400px;
+    background-color: black;
+    color: cornsilk;
+    font-size: medium;
+    padding-bottom: 30px;
+}
+.main{
+    position: absolute;
+    left: 45%;
+}
